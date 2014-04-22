@@ -1,0 +1,29 @@
+#header {
+background: $gray;
+padding: 20px;
+width: 102%;
+position: relative;
+z-index: 99;
+}
+.top-bar, .top-bar-section li:not(.has-form) a:not(.button) {
+background: $black;
+}
+.top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+background: $gray;
+}
+/* Responsive adjustments */
+@media only screen and (max-width: $tiny) {
+
+}
+@media only screen and (min-width: $tiny) and (max-width: $small) {
+
+}
+@media only screen and (max-width: $small) {
+
+}
+@media only screen and (min-width: $small) and (max-width: $medium) {
+
+}
+@media only screen and (min-width: $medium) {
+
+}

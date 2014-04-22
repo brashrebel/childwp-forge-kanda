@@ -1,0 +1,17 @@
+.welcome {
+padding: 20px;
+background-color: $blue;
+color: $white;
+margin: -10px 0 10px 0;
+line-height: 1.4em;
+	.button {
+	background: $green;
+	margin-top: 10px;
+		&:hover {
+
+		}
+	}
+	h3 {
+	color: inherit;
+	}
+}
